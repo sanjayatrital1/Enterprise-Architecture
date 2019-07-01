@@ -24,7 +24,11 @@ public class App {
 
         // a) TODO: Flights leaving USA capacity > 500
         System.out.println("Question A:");
-        List<Flight> flights = em.createQuery("from Flight ", Flight.class).getResultList();
+        List<Flight> flights = em.createQuery("select distinct f from Flight as f" +
+                " join f.airplane as a " +
+                "join f.origin as o " +
+                "join f.destination as d" +
+                " where o.country= 'USA' and a.capacity > 500 and d.country !='USA'", Flight.class).getResultList();
         System.out.printf("%-9s%-31s%-31s\n", "Flight:", "Departs:",
                 "Arrives:");
         for (Flight flight : flights) {
@@ -44,7 +48,9 @@ public class App {
 
         // b) TODO: All airlines that use A380 airplanes
         System.out.println("Question B:");
-        List<Airline> airlines = em.createQuery("from Airline ", Airline.class).getResultList();
+        List<Airline> airlines = em.createQuery("select distinct a from Airline as a " +
+                "join a.flights as f " +
+                "where f.airplane.model='A380'", Airline.class).getResultList();
         System.out.println("Airlines that use A380s:");
         for (Airline airline : airlines) {
             System.out.println(airline.getName());
@@ -59,7 +65,10 @@ public class App {
 
         // c) TODO: Flights using 747 planes that don't belong to Star Alliance
         System.out.println("Question C:");
-        flights = em.createQuery("from Flight ", Flight.class).getResultList();
+        flights = em.createQuery("select f from Flight as f " +
+                "join f.airplane as a " +
+                "join f.airline as air " +
+                "where a.model='747' and air.name !='Star Alliance'", Flight.class).getResultList();
         System.out.printf("%-9s%-31s%-31s\n", "Flight:", "Departs:",
                 "Arrives:");
         for (Flight flight : flights) {
@@ -84,7 +93,8 @@ public class App {
 
         // d) TODO: All flights leaving before 12pm on 08/07/2009
         System.out.println("Question D:");
-        TypedQuery<Flight> query = em.createQuery("from Flight ", Flight.class);
+        TypedQuery<Flight> query = em.createQuery("select f from Flight as f" +
+                " where f.departureTime < '12:00:00' and f.departureDate = '2009-08-07'", Flight.class);
         flights = query.getResultList();
         System.out.printf("%-9s%-31s%-31s\n", "Flight:", "Departs:",
                 "Arrives:");
