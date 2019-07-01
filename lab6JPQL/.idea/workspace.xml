@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43bf5a3e-26af-4447-8183-9f79776feb43" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../lab5Complex/lab5Complex.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab5Complex/src/main/java/cs/mum/edu/Appointment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab5Complex/src/main/java/cs/mum/edu/Doctor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab5Complex/src/main/java/cs/mum/edu/MainApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab5Complex/src/main/java/cs/mum/edu/Patient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab5Complex/src/main/java/cs/mum/edu/Payment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab5Complex/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab5Complex/src/main/resources/log4j2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab5Inheritance/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab5Inheritance/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab5Complex/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab5Complex/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab6JPQL.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lab6JPQL.iml" afterDir="false" />
@@ -113,7 +105,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="532" />
     <option name="width" value="1386" />
     <option name="height" value="788" />
@@ -245,8 +237,7 @@
     <option name="totallyTimeSpent" value="9680000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
