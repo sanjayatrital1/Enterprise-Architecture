@@ -3,6 +3,7 @@ package edu.mum.cs544;
 import java.util.List;
 
 import edu.mum.cs544.model.Airline;
+import edu.mum.cs544.model.Airport;
 import edu.mum.cs544.model.Flight;
 import java.text.DateFormat;
 import java.util.Locale;
@@ -106,6 +107,19 @@ public class App {
                     flight.getArrivalDate(), flight.getArrivalTime());
         }
         System.out.println();
+        em.getTransaction().commit();
+        em.close();
+
+        System.out.println("====================================================================================");
+        em = emf.createEntityManager();
+        em.getTransaction().begin();
+        TypedQuery<Airport> flightTypedQuery = em.createQuery("select a from Airport a left join a.arrivals ar left join a.departures ad",Airport.class);
+        List<Airport> airportList = flightTypedQuery.getResultList();
+        for(Airport a: airportList){
+            System.out.printf("%-7s  %8s  %-12s %7s %8s\n",a.getCity(),a.getAirportcode(),
+                    a.getCountry(),a.getName(),a.getAirportcode());
+
+        }
         em.getTransaction().commit();
         em.close();
     }

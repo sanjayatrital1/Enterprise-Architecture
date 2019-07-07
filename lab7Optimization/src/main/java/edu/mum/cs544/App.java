@@ -2,10 +2,7 @@ package edu.mum.cs544;
 
 import java.util.List;
 
-import javax.persistence.EntityManager;
-import javax.persistence.EntityManagerFactory;
-import javax.persistence.Persistence;
-import javax.persistence.TypedQuery;
+import javax.persistence.*;
 
 public class App {
 
@@ -18,7 +15,13 @@ public class App {
         EntityManager em = emf.createEntityManager();
         em.getTransaction().begin();
 
-        TypedQuery<Owner> query = em.createQuery("from Owner", Owner.class);
+
+
+        EntityGraph<Owner> graph = em.createEntityGraph(Owner.class);
+        graph.addAttributeNodes("pets");
+        TypedQuery<Owner> query = em.createQuery("from Owner ", Owner.class);
+        query.setHint("javax.persistence.fetchgraph",graph);
+
         List<Owner> ownerlist = query.getResultList();
         for (Owner o : ownerlist) {
             o.getPets().size();
