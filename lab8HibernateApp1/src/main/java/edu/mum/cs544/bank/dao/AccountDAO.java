@@ -2,13 +2,18 @@ package edu.mum.cs544.bank.dao;
 
 import java.util.*;
 
+import edu.mum.cs544.bank.EntityManagerHelper;
 import edu.mum.cs544.bank.domain.Account;
+
+import javax.persistence.EntityManager;
 
 public class AccountDAO implements IAccountDAO {
     Collection<Account> accountlist = new ArrayList<Account>();
 
     public void saveAccount(Account account) {
         // System.out.println("AccountDAO: saving account with accountnr ="+account.getAccountnumber());
+//        EntityManager em = EntityManagerHelper.getCurrent();
+//        em.persist(account);
         accountlist.add(account); // add the new
     }
 

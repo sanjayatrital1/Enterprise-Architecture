@@ -1,25 +1,36 @@
 package edu.mum.cs544.bank.domain;
 
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+import javax.persistence.*;
 import java.util.*;
 
 
+@NoArgsConstructor
+@Entity
 public class Account {
+    @Setter
+    @Getter
+    @Id
     private long accountnumber;
-    private Collection<AccountEntry> entryList = new ArrayList<AccountEntry>();
-    private Customer customer;
 
+    @Getter
+    @OneToMany(cascade = CascadeType.ALL)
+//    @JoinColumn(name = "accountnumber")
+    @JoinColumn(name = "accountnumber")
+    private Collection<AccountEntry> entryList = new ArrayList<AccountEntry>();
+
+    @Setter
+    @Getter
+    @OneToOne(cascade = CascadeType.ALL)
+    private Customer customer;
 
     public Account(long accountnr) {
         this.accountnumber = accountnr;
     }
 
-    public long getAccountnumber() {
-        return accountnumber;
-    }
-
-    public void setAccountnumber(long accountnumber) {
-        this.accountnumber = accountnumber;
-    }
 
     public double getBalance() {
         double balance = 0;
@@ -50,16 +61,7 @@ public class Account {
         toAccount.addEntry(toEntry);
     }
 
-    public Customer getCustomer() {
-        return customer;
+    public long getAccountnumber() {
+        return accountnumber;
     }
-
-    public void setCustomer(Customer customer) {
-        this.customer = customer;
-    }
-
-    public Collection<AccountEntry> getEntryList() {
-        return entryList;
-    }
-
 }

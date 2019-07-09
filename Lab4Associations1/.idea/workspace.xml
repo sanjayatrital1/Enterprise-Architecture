@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="36264a8c-af21-4b38-ad0e-55baf102d04d" name="Default Changelist" comment="" />
+    <list default="true" id="36264a8c-af21-4b38-ad0e-55baf102d04d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab4-Associations-1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab3basicoperation/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab8HibernateApp1/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab8HibernateApp1/src/main/java/edu/mum/cs544/bank/EntityManagerHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab8HibernateApp1/src/main/java/edu/mum/cs544/bank/dao/JPAAccountDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab8HibernateApp1/src/main/java/edu/mum/cs544/bank/service/JPAAccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab8HibernateApp1/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab3basicoperation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3basicoperation/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab3basicoperation/lab3basicoperation.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab7Optimization/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab7Optimization/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab8HibernateApp1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab8HibernateApp1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab8HibernateApp1/lab8HibernateApp1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab8HibernateApp1/lab8HibernateApp1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab8HibernateApp1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab8HibernateApp1/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab8HibernateApp1/src/main/java/edu/mum/cs544/bank/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab8HibernateApp1/src/main/java/edu/mum/cs544/bank/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab8HibernateApp1/src/main/java/edu/mum/cs544/bank/dao/AccountDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab8HibernateApp1/src/main/java/edu/mum/cs544/bank/dao/AccountDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab8HibernateApp1/src/main/java/edu/mum/cs544/bank/domain/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab8HibernateApp1/src/main/java/edu/mum/cs544/bank/domain/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab8HibernateApp1/src/main/java/edu/mum/cs544/bank/domain/AccountEntry.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab8HibernateApp1/src/main/java/edu/mum/cs544/bank/domain/AccountEntry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab8HibernateApp1/src/main/java/edu/mum/cs544/bank/domain/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab8HibernateApp1/src/main/java/edu/mum/cs544/bank/domain/Customer.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,7 +37,17 @@
     <option name="delegatedBuild" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="32" column="30" lean-forward="true" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -23,6 +55,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -46,13 +81,12 @@
     <option name="width" value="1386" />
     <option name="height" value="788" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -60,42 +94,19 @@
               <item name="Lab4Associations1" type="b2602c69:ProjectViewProjectNode" />
               <item name="Lab4Associations1" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Lab4Associations1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Lab4Associations1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Lab4Associations1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Lab4Associations1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Lab4Associations1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Lab4Associations1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Lab4Associations1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Lab4Associations1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cs544" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -148,16 +159,18 @@
       <updated>1561745358369</updated>
       <workItem from="1561745362275" duration="6166000" />
       <workItem from="1561918373225" duration="101000" />
+      <workItem from="1562532219045" duration="633000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6267000" />
+    <option name="totallyTimeSpent" value="6900000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Persistence" order="3" side_tool="true" />
@@ -208,13 +221,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="26" column="16" lean-forward="true" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/mum/cs544/Car.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="122">
@@ -257,6 +263,13 @@
           <folding>
             <element signature="e#0#8#1" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="30" lean-forward="true" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
         </state>
       </provider>
     </entry>
