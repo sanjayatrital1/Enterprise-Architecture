@@ -1,62 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dec67a05-d8bb-46fc-ba33-fecf6b738151" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Lab10-AOP-1/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab10-AOP-1/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab10-AOP-1/.idea/libraries/Maven__junit_junit_3_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab10-AOP-1/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab10-AOP-1/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_11_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab10-AOP-1/.idea/libraries/Maven__org_aspectj_aspectjrt_1_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab10-AOP-1/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab10-AOP-1/.idea/libraries/Maven__org_springframework_spring_aop_5_0_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab10-AOP-1/.idea/libraries/Maven__org_springframework_spring_beans_5_0_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab10-AOP-1/.idea/libraries/Maven__org_springframework_spring_context_5_0_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab10-AOP-1/.idea/libraries/Maven__org_springframework_spring_core_5_0_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab10-AOP-1/.idea/libraries/Maven__org_springframework_spring_expression_5_0_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab10-AOP-1/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab10-AOP-1/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab10-AOP-1/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab10-AOP-1/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab10-AOP-1/W1D3-AOP-1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab10-AOP-1/src/main/java/edu/mum/cs544/LogAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab10-AOP-1/src/main/java/edu/mum/cs544/StopWatchAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/mum/cs544/bank/aop/DaoLogAdvice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/mum/cs544/bank/aop/JMSLogAdvise.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/mum/cs544/bank/aop/ServiceTimerAdvice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab10-Bank_Application/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab10-Bank_Application/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab10-Bank_Application/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab10-Bank_Application/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_11_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab10-Bank_Application/.idea/libraries/Maven__org_aspectj_aspectjrt_1_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab10-Bank_Application/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab10-Bank_Application/.idea/libraries/Maven__org_springframework_spring_aop_5_0_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab10-Bank_Application/.idea/libraries/Maven__org_springframework_spring_beans_5_0_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab10-Bank_Application/.idea/libraries/Maven__org_springframework_spring_context_5_0_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab10-Bank_Application/.idea/libraries/Maven__org_springframework_spring_core_5_0_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab10-Bank_Application/.idea/libraries/Maven__org_springframework_spring_expression_5_0_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab10-Bank_Application/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab10-Bank_Application/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab10-Bank_Application/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab10-Bank_Application/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab10-Bank_Application/W1D3-Bank_Application.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab10-Bank_Application/src/main/java/edu/mum/cs544/bank/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab10-Bank_Application/src/main/java/edu/mum/cs544/bank/config/Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab10-Bank_Application/src/main/java/edu/mum/cs544/bank/dao/AccountDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab10-Bank_Application/src/main/java/edu/mum/cs544/bank/dao/IAccountDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab10-Bank_Application/src/main/java/edu/mum/cs544/bank/domain/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab10-Bank_Application/src/main/java/edu/mum/cs544/bank/domain/AccountEntry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab10-Bank_Application/src/main/java/edu/mum/cs544/bank/domain/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab10-Bank_Application/src/main/java/edu/mum/cs544/bank/logging/ILogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab10-Bank_Application/src/main/java/edu/mum/cs544/bank/logging/Logger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab10-Bank_Application/src/main/java/edu/mum/cs544/bank/service/AccountService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab10-Bank_Application/src/main/java/edu/mum/cs544/bank/service/CurrencyConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab10-Bank_Application/src/main/java/edu/mum/cs544/bank/service/IAccountService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab10-Bank_Application/src/main/java/edu/mum/cs544/bank/service/ICurrencyConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HibernateAPPLab2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HibernateAPPLab2/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="dec67a05-d8bb-46fc-ba33-fecf6b738151" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -108,7 +53,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="532" />
     <option name="width" value="1386" />
     <option name="height" value="788" />
@@ -183,7 +128,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../EALabs/cs544EA/Lesson11/SpringMVCDataJavaConfig" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -242,15 +187,15 @@
       <option name="presentableId" value="Default" />
       <updated>1562726128979</updated>
       <workItem from="1562726139269" duration="4452000" />
-      <workItem from="1562730893499" duration="2677000" />
+      <workItem from="1562730893499" duration="2698000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7129000" />
+    <option name="totallyTimeSpent" value="7150000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2549168" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
